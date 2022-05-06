@@ -1,5 +1,5 @@
 # udpbypass
 
-https://twitter.com/Exodiaxd_
+https://twitter.com/s27anonym
 
-https://instagram.com/exodia__xd/
+https://instagram.com/s27anonymxdd/
